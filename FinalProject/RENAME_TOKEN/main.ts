@@ -25,7 +25,7 @@ async function main() {
     console.log("Let's name some tokens");
 
     const myKeypair = loadWalletKey('C:/Users/lagas/.config/solana/devnet.json');   
-    const mint = new web3.PublicKey("EJB2pWUSSXQ4J5pJ188cs9ZjQicmu1paH1w7SZ3BjDEj"); // place splToken address here
+    const mint = new web3.PublicKey("BxYcZq2R8Cst8LEDRnpvnKJMTfyZeDX62jEd5xSHUnP8"); // place splToken address here
 
     const seed1 = Buffer.from(anchor.utils.bytes.utf8.encode("metadata"));
     const seed2 = Buffer.from(mpl.PROGRAM_ID.toBytes());
@@ -42,9 +42,9 @@ async function main() {
     }
 
     const dataV2 = {
-        name: "Claws",
+        name: "PAWS",
         symbol: "$SAC",
-        uri: "https://gateway.pinata.cloud/ipfs/QmWx19qZxzscD3VeKUNQ84o3GuoxEb6b4dE7LfhFFrWBLg",
+        uri: "https://gateway.pinata.cloud/ipfs/Qmd19LwuuSdbdJbkWeqVkzi3mE53Jz1MK229a9cX4F7KXZ",
         // we don't need that
         sellerFeeBasisPoints: 0,
         creators: null,

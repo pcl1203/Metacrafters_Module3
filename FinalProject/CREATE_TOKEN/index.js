@@ -58,7 +58,7 @@ import {readFileSync, promises as fsPromises} from 'fs';
         fromTokenAccount.address,
         toTokenAccount.address,
         fromWallet.publicKey,
-        100000000000, // 100
+        150000000000, // 150
         []
     );
     //console.log('transfer tx:', signature); 
